@@ -1,3 +1,9 @@
+const botaoEnviar = document.getElementById('submit')
+
+botaoEnviar.addEventListener('click', (event) => {
+    console.log("preparando envio...")
+})
+
 const nomeLoja = document.getElementById('nome');
 const enderecoLoja = document.getElementById('endereco');
 const funcionamentoLoja = document.getElementById('funcionamento');
@@ -32,3 +38,6 @@ funcionamentoLoja.addEventListener('blur', (event) => {
     window.localStorage.setItem("Funcionamento da loja" , event.target.value)
 });
 
+function FillInputs(event){
+    
+} 
