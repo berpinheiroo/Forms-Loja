@@ -1,0 +1,118 @@
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace
+}
+
+/* Header */
+
+.header {
+    border-style: solid;
+    height: 15vh;
+    width: 100vw;
+    background-color: #042940;
+    display: flex;
+    text-align: center;
+    justify-content: left;
+}
+
+/* Content */
+.content {
+    background-color: #eeeeee;
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+}
+
+.formBox {
+    margin-top: 2em;
+    border-style: solid;
+    border-color: #dbf227;
+    margin: -1em auto 0 auto;
+    height: 87vh;
+    width: 60vw;
+    background-color: #dddddd;
+}
+
+.headerOverflow {
+    height:2vh;
+    width: 100%;
+    background-color: #aeb6ba;
+}
+
+form {
+    height: 84vh;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formSection {
+    height: 25%;
+    width: 75%;
+    margin: 0 auto
+}
+
+.emailSection > input{
+    display: block;
+    border-style: none;
+    height: 40px;
+    width: 250px;
+    margin: 1vh auto 5vh auto;
+}
+
+.emailSection > label {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+.rateSection1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: center;
+}
+
+.rateSection1 input {
+    cursor: pointer;
+}
+
+.rateSection2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: center;
+}
+
+.rateSection2 img {
+    display: flex;
+    width: 40px;    
+    margin: 0 1em ;
+}
+
+.rateSection2 input {
+    visibility: hidden;
+}
+
+.rateSection2 label {
+    cursor: pointer
+}
+
+.rates2 {
+    display: flex;
+    
+}
+
+button {
+    width: 150px;
+    height: 50px ;
+    color:white;
+    background-color: #042940;
+    margin-top: 6.5vh;
+}
