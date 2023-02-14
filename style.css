@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.Content {
+    margin: 5em auto 5em auto;
+    width: 714px;;
+    background-color: aqua;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.formContent{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 200px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 800px){
+    .Content {
+        width:400px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    form {
+        display:flex;
+        flex-direction: column;
+    }
+    .Content {
+        width: 200px;
+    }
+}

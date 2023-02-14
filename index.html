@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!DOCTYPE html>
@@ -18,15 +19,15 @@
 <body>
     <section class="Content">
         <form action="api.flit.com.br/submeterDados" method="get">
-        <div>
+        <div class ="FormContent">
             <label for="nome">Nome</label><br>
             <input class="input" id="nome" type="text">
         </div>
-        <div>
+        <div class="FormContent">
             <label for="endereco">Endereço</label><br>
             <input class="input" type="text" id="endereco">
         </div>
-        <div>
+        <div class ="FormContent">
             <label for="">Dias da semana em que há funcionamento:</label><br>
             <input type="checkbox">Segunda<br>
             <input type="checkbox">Terça<br>
@@ -35,11 +36,11 @@
             <input type="checkbox">Sábado<br>
             <input type="checkbox">Domingo<br>
         </div>
-        <div>
+        <div class ="FormContent">
             <label for="funcionamento">Horário de funcionamento:</label><br>
             <input class="input" type="text" id="funcionamento">
         </div>
-        <div>
+        <div class ="FormContent">
             <button type="submit" id="submit">Cadastrar</button>
         </div>
     </form>
