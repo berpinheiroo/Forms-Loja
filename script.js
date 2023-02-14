@@ -41,3 +41,15 @@ funcionamentoLoja.addEventListener('blur', (event) => {
 function FillInputs(event){
     
 } 
+
+
+campos = [nomeLoja, enderecoLoja, funcionamentoLoja]
+for (let i = 0; i < campos.length; i++) {
+    campos[i].addEventListener('change', event.target.value)
+}
+
+function recuperarDados() {
+    for (let i = 0; i < campos.length; i++) {
+        campos[i].value = window.localStorage.getItem(campos[i])
+    }
+}
